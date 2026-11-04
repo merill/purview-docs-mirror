@@ -1,0 +1,16 @@
+{
+  "sitemapIndex": "https://learn.microsoft.com/_sitemaps/sitemapindex.xml",
+  "sitemaps": "/_sitemaps/purview_en-us_\\d+\\.xml$",
+  "tocs": [
+    "https://learn.microsoft.com/en-us/purview/toc.json"
+  ],
+  "extraUrls": [],
+  "include": "^https://learn\\.microsoft\\.com/en-us/purview/",
+  "exclude": [],
+  "trackedPaths": "^Purview/",
+  "sourceRepos": [
+    "MicrosoftDocs/Purview-pr"
+  ],
+  "concurrency": 4,
+  "priority": "(whats-new|release-notes|what-s-new|new-features|deprecat|retire)"
+}
