@@ -37,11 +37,11 @@ source_path: Purview/deploymentmodels/depmod-secure-by-default-step3.md
 cmProducts:
 - https://authoring-docs-microsoft.poolparty.biz/devrel/1dd701e0-441f-4b0a-9806-aa47decc4e35
 - https://authoring-docs-microsoft.poolparty.biz/devrel/9d7be3ef-f27c-4c7f-9eba-67c3cd429995
-- https://authoring-docs-microsoft.poolparty.biz/devrel/57eae111-0f3b-497e-be07-450fd1409dea
+- https://authoring-docs-microsoft.poolparty.biz/devrel/7428317a-e6c2-4461-ad3e-8a8ad3608734
 spProducts:
 - https://authoring-docs-microsoft.poolparty.biz/devrel/0a2fc935-5977-4aa6-9f55-0be03bd2acb8
 - https://authoring-docs-microsoft.poolparty.biz/devrel/feeb50f3-b677-44f9-b3a6-5f2f58182b0d
-- https://microsoft-devrel.poolparty.biz/DevRelOfferingOntology/ac8bf8ab-8134-4c9a-9f2e-58b31575b492
+- https://authoring-docs-microsoft.poolparty.biz/devrel/e4f59707-f107-48f2-8d75-0afd91868cd7
 platformId: 3c3bb0a6-d4e3-4566-d4b6-5eddb52d6816
 ---
 
@@ -85,7 +85,7 @@ You can progressively deploy this strategy with more SITs and trainable classifi
 
 ## Simulate auto-labeling sensitive files at rest
 
-Service-side auto-labeling labels files at rest in SharePoint and OneDrive, and provides more conditions. It currently supports auto-labeling up to 500,000 files per day in your organization and up to 20,000,000 matched files in a policy simulation.
+Service-side auto-labeling labels files at rest in SharePoint and OneDrive, and provides more conditions. The **absolute maximum throughput** is 500,000 automatically labeled SharePoint and OneDrive files per tenant per day, in aggregate across all auto-labeling policies. This ceiling isn't a guaranteed or consistently expected daily processing rate; actual throughput can be lower. Simulation supports up to 20,000,000 matched files per policy simulation.
 
 While client-side auto-labeling is limited to sensitive content, service-side auto-labeling adds support for contextual conditions such as:
 
